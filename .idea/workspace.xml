@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21f5de57-d654-4f53-8c11-d4f16c6b4377" name="Default Changelist" comment="" />
+    <list default="true" id="21f5de57-d654-4f53-8c11-d4f16c6b4377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Funcionario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Titular.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +14,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lksU6VM0ZWzJPqMhZKRjBNJbHA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608152436531</updated>
-      <workItem from="1608152438057" duration="3641000" />
+      <workItem from="1608152438057" duration="3947000" />
     </task>
     <servers />
   </component>
