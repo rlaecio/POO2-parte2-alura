@@ -1,28 +1,24 @@
 <?php
 
+namespace Alura\Banco\Modelo\Conta;
+
 class Conta
 {
     private $titular;
-    private float $saldo;
-    private static int $numeroDeContas = 0;
-
+    private $saldo;
+    private static $numeroDeContas = 0;
 
     public function __construct(Titular $titular)
     {
         $this->titular = $titular;
         $this->saldo = 0;
 
-        Conta::$numeroDeContas++;
+        self::$numeroDeContas++;
     }
 
     public function __destruct()
     {
         self::$numeroDeContas--;
-    }
-
-    public static function recuperaNumeroDeContas(): int
-    {
-        return self::$numeroDeContas;
     }
 
     public function saca(float $valorASacar): void
@@ -31,15 +27,17 @@ class Conta
             echo "Saldo indisponível";
             return;
         }
+
         $this->saldo -= $valorASacar;
     }
 
     public function deposita(float $valorADepositar): void
     {
         if ($valorADepositar < 0) {
-            echo "Valor a depositar";
+            echo "Valor precisa ser positivo";
             return;
-        } 
+        }
+
         $this->saldo += $valorADepositar;
     }
 
@@ -49,8 +47,9 @@ class Conta
             echo "Saldo indisponível";
             return;
         }
-        $this->saca($valorATransferir);
-        $contaDestino->deposita($valorATransferir);
+
+        $this->sacar($valorATransferir);
+        $contaDestino->depositar($valorATransferir);
     }
 
     public function recuperaSaldo(): float
@@ -58,15 +57,18 @@ class Conta
         return $this->saldo;
     }
 
-    public function recuperaNomeTitular()
+    public function recuperaNomeTitular(): string
     {
         return $this->titular->recuperaNome();
     }
 
-    public function recuperaCpfTitular()
+    public function recuperaCpfTitular(): string
     {
         return $this->titular->recuperaCpf();
     }
 
-
+    public static function recuperaNumeroDeContas(): int
+    {
+        return self::$numeroDeContas;
+    }
 }

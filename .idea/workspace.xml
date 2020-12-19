@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f5de57-d654-4f53-8c11-d4f16c6b4377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Modelo/CPF.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcionario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Titular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/banco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CPF.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conta.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Conta/Conta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Endereco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Funcionario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Conta/Titular.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +34,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Modelo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Modelo" />
+      <recent name="$PROJECT_DIR$/src/Modelo/Conta" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Modelo/Conta" />
+      <recent name="$PROJECT_DIR$/src/Modelo" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608152436531</updated>
       <workItem from="1608152438057" duration="5503000" />
-      <workItem from="1608388943432" duration="1029000" />
+      <workItem from="1608388943432" duration="5043000" />
     </task>
     <servers />
   </component>

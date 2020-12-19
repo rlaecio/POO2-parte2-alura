@@ -1,5 +1,8 @@
 <?php
 
+namespace  Alura\Modelo;
+
+use Alura\Banco\Modelo\Pessoa;
 
 class Funcionario extends Pessoa
 {
@@ -16,6 +19,9 @@ class Funcionario extends Pessoa
         return $this->cargo;
     }
 
-
-
+    public function alteraNome(string $nome): void
+    {
+        $this->validaNomeTitular($nome);
+        $this->nome = $nome;
+    }
 }
