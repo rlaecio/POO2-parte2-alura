@@ -7,13 +7,7 @@ class Endereco
     private string $rua;
     private string $numero;
 
-    /**
-     * Endereco constructor.
-     * @param string $cidade
-     * @param string $bairro
-     * @param string $rua
-     * @param string $numero
-     */
+
     public function __construct(string $cidade, string $bairro, string $rua, string $numero)
     {
         $this->cidade = $cidade;
@@ -22,33 +16,25 @@ class Endereco
         $this->numero = $numero;
     }
 
-    /**
-     * @return string
-     */
+
     public function recuperaCidade(): string
     {
         return $this->cidade;
     }
 
-    /**
-     * @return string
-     */
+
     public function recuperaBairro(): string
     {
         return $this->bairro;
     }
 
-    /**
-     * @return string
-     */
+
     public function recuperaRua(): string
     {
         return $this->rua;
     }
 
-    /**
-     * @return string
-     */
+    
     public function recuperaNumero(): string
     {
         return $this->numero;
