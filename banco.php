@@ -1,13 +1,10 @@
 <?php
-require_once 'src/Modelo/Conta/Conta.php';
-require_once 'src/Modelo/Endereco.php';
-require_once 'src/Modelo/Pessoa.php';
-require_once 'src/Modelo/Conta/Titular.php';
-require_once 'src/Modelo/CPF.php';
+
+require_once 'autoload.php';
 
 use Alura\Banco\Modelo\Conta\Titular;
-use Alura\Modelo\Endereco;
-use Alura\Modelo\CPF;
+use Alura\Banco\Modelo\Endereco;
+use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Conta\Conta;
 
 
