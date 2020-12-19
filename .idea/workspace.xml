@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f5de57-d654-4f53-8c11-d4f16c6b4377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Conta/ContaCorrente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Conta/ContaPoupanca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste-saque.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/banco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/CPF.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/CPF.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Conta/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Conta/Titular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Endereco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Funcionario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Conta/Conta.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Conta/Conta.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Modelo" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,6 +46,16 @@
       <recent name="$PROJECT_DIR$/src/Modelo" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="teste-saque.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/POO2-parte2-alura/teste-saque.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.teste-saque.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,11 +65,16 @@
       <option name="presentableId" value="Default" />
       <updated>1608152436531</updated>
       <workItem from="1608152438057" duration="5503000" />
-      <workItem from="1608388943432" duration="6542000" />
+      <workItem from="1608388943432" duration="8707000" />
+      <workItem from="1608402538060" duration="67000" />
+      <workItem from="1608404735799" duration="1817000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
 </project>
