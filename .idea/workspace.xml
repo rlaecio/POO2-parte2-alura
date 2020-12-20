@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f5de57-d654-4f53-8c11-d4f16c6b4377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/autenticacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Autenticavel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/EditorVideo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Servico/Autenticador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enderecos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bonificacoes.php" beforeDir="false" afterPath="$PROJECT_DIR$/bonificacoes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Funcionario/Diretor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Diretor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/CPF.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/CPF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Endereco.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Modelo/Funcionario/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Funcionario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Funcionario/Gerente.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Gerente.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Modelo/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Pessoa.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +72,7 @@
       <workItem from="1608388943432" duration="8707000" />
       <workItem from="1608402538060" duration="67000" />
       <workItem from="1608404735799" duration="5765000" />
-      <workItem from="1608479559102" duration="1829000" />
+      <workItem from="1608479559102" duration="3421000" />
     </task>
     <servers />
   </component>
