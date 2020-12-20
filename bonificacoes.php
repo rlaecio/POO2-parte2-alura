@@ -10,21 +10,18 @@ use Alura\Banco\Modelo\Funcionario\{Gerente,Diretor, Desenvolvedor};
 $umfuncionario = new Desenvolvedor(
     'Vinivius Dias',
     new CPF('123.456.789-10'),
-    'Desenvolvedor',
     1000
 );
 
 $umaGerente = new Gerente(
     'Patricia',
     new CPF('987.654.321-10'),
-    'Gerente',
     3000
 );
 
 $umDiretor = new Diretor(
     'Ana Paula',
     new CPF('123.456.789-11'),
-    'Diretor',
     5000
 );
 

@@ -4,7 +4,7 @@ namespace  Alura\Banco\Modelo;
 
 use Alura\Banco\Modelo\CPF;
 
-class Pessoa
+abstract class Pessoa
 {
     protected $nome;
     private $cpf;
